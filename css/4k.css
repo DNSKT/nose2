@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Helvetica;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.pagenav{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 7rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cosas{
+    width: 34vh;
+    height: 5vh;
+    font-size: 4rem;
+    margin-top: 1.5rem;
+}
+
+.tela{
+    position: absolute;
+    right: 0;
+    width: 81rem;
+    height: 91rem;
+    opacity: 0.4;
+}
